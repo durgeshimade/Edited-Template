@@ -51,30 +51,39 @@ a:hover {
 	margin: 0px;
 	font-family:'Acme', sans-serif;
 	font-size: 34px;
-	color: darkslategray;
+	color: #000000;
 	text-decoration:none;
     
 	font-weight:bolder;
 }
-.beneath-header {
-    padding-top: 75px;
+.beneath-header{
+    padding-top: 77px;
+    width: 900px;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
     font-variant-position: sub;
-    font-size: 16px;
+    font-size: 15px;
+    
+    
    
 }
 .topmenu {
-	background-image: url(../images/menubg.jpg);
-	background-repeat: repeat-x;
+    
+/*    background-image: url(../images/menubg.jpg);*/
+    background-color: #eeeff1;
+    background-repeat: repeat-x;
 	background-position: left top;
 	text-align: center;
+
 	width: 995px;
 	height: 43px;
-	float: left;
+	float: right;
+
 }
 .topmenu ul {
 	margin:0px;
 	padding:0px 0px 0px 190px;
 	list-style:none;
+    float: right;
 }
 .topmenu ul li {
 	margin:0px;
@@ -86,21 +95,21 @@ a:hover {
 	font-weight:bold;
 	text-transform:uppercase;
 	float:left;
-	display:block;
+	display:inline;
 	line-height:43px;
 	background:url(../images/devider.jpg) no-repeat left top;
 }
 .topmenu ul li a {
 	font-family:Verdana, Arial, Helvetica, sans-serif;
-	font-size: 12px;
-	color: #000000;
+	font-size: 8px;
+	color: white;
 	text-decoration:none;
 	font-weight:bold;
 }
 .topmenu ul li a:hover {
-	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-family: 'Acme', sans-serif;
 	font-size: 12px;
-	color: #f37126;
+	color: rgb(50,50,50);
 	text-decoration:none;
 	font-weight:bold;
 }
