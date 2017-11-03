@@ -44,14 +44,23 @@ a:hover {
 	height:161px;
 }
 .header-img h1 {
-	padding: 10px 0px 0px 350px;
+    
+    float: left;
+/*	padding: 10px 0px 0px 350px;*/
+    padding-top: 40px;
 	margin: 0px;
 	font-family:'Acme', sans-serif;
 	font-size: 34px;
-	color: lemonchiffon;
+	color: darkslategray;
 	text-decoration:none;
     
-	font-weight:normal;
+	font-weight:bolder;
+}
+.beneath-header {
+    padding-top: 75px;
+    font-variant-position: sub;
+    font-size: 16px;
+   
 }
 .topmenu {
 	background-image: url(../images/menubg.jpg);
